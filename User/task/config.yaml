@@ -1,0 +1,7 @@
+- delay: 0
+  description: RM6020电机挂载can1开环测试
+  freq_control: true
+  frequency: 500.0
+  function: Task_RM6020
+  name: RM6020
+  stack: 256

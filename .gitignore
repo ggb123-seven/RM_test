@@ -1,0 +1,18 @@
+# Keil MDK user-specific files
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+
+# Keil build outputs
+MDK-ARM/zero_program/
+MDK-ARM/**/*.o
+MDK-ARM/**/*.d
+MDK-ARM/**/*.crf
+MDK-ARM/**/*.axf
+MDK-ARM/**/*.map
+MDK-ARM/**/*.htm
+MDK-ARM/**/*.lnp
+MDK-ARM/**/*.dep
+MDK-ARM/**/*.lst
+
+# Local generated firmware file
+user_program.bin

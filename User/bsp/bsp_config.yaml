@@ -1,0 +1,74 @@
+can:
+  devices:
+  - instance: CAN2
+    name: RM6020
+  enabled: true
+dwt:
+  enabled: true
+flash:
+  dual_bank: true
+  enabled: true
+  mcu_name: STM32F407I(E-G)Hx
+  sectors: 24
+gpio:
+  configs:
+  - custom_name: ACCL_CS
+    has_exti: false
+    ioc_label: ACCL_CS
+    pin: PA4
+    type: OUTPUT
+  - custom_name: GYRO_CS
+    has_exti: false
+    ioc_label: GYRO_CS
+    pin: PB0
+    type: OUTPUT
+  - custom_name: HW0
+    has_exti: false
+    ioc_label: HW0
+    pin: PC0
+    type: INPUT
+  - custom_name: HW1
+    has_exti: false
+    ioc_label: HW1
+    pin: PC1
+    type: INPUT
+  - custom_name: HW2
+    has_exti: false
+    ioc_label: HW2
+    pin: PC2
+    type: INPUT
+  - custom_name: ACCL_INT
+    has_exti: true
+    ioc_label: ACCL_INT
+    pin: PC4
+    type: EXTI
+  - custom_name: GYRO_INT
+    has_exti: true
+    ioc_label: GYRO_INT
+    pin: PC5
+    type: EXTI
+  - custom_name: POWER1_CTRL
+    has_exti: false
+    ioc_label: POWER1_CTRL
+    pin: PH2
+    type: OUTPUT
+  - custom_name: POWER2_CTRL
+    has_exti: false
+    ioc_label: POWER2_CTRL
+    pin: PH3
+    type: OUTPUT
+  - custom_name: POWER3_CTRL
+    has_exti: false
+    ioc_label: POWER3_CTRL
+    pin: PH4
+    type: OUTPUT
+  - custom_name: POWER4_CTRL
+    has_exti: false
+    ioc_label: POWER4_CTRL
+    pin: PH5
+    type: OUTPUT
+  enabled: true
+mm:
+  enabled: true
+time:
+  enabled: true
